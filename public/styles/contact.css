@@ -1,0 +1,102 @@
+#start3{
+    background-image: url("/images/ContactUS.png");
+    background-size: cover;
+    background-position: center;
+    height: 103vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+#heading2{
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) /* #000000 */;
+    margin-bottom: 3rem /* 48px */;
+    margin-top: 600px;
+    text-shadow: 2px 4px 4px rgb(164, 217, 255);
+}
+
+#description2{
+    font-size: 1.875rem /* 30px */;
+    line-height: 2.25rem /* 36px */;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) /* #000000 */;
+    margin-bottom: 3rem /* 48px */;
+    font-weight: 600;
+    width: 600px;
+}
+
+#email{
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) /* #000000 */;
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+    font-weight: 600;
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity)) /* #14b8a6 */;
+    border-radius: 9999px;
+    padding: 0.75rem /* 12px */;
+}
+
+#phone{
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) /* #000000 */;
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+    font-weight: 600;
+    margin-top: 12px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity)) /* #14b8a6 */;
+    border-radius: 9999px;
+    padding: 0.75rem /* 12px */;
+}
