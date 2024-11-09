@@ -1,5 +1,4 @@
-import Header from "@/components/Header";
-import '@/styles/home.css'
+import '@/public/styles/home.css'
 
 export default function Home() {
   return (
